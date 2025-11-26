@@ -1,6 +1,5 @@
 Tried all models and after compared
 
-<!-- 
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
 from sklearn.naive_bayes import MultinomialNB
@@ -64,4 +63,4 @@ for name,clf in clfs.items():
     precision_scores.append(current_precision) 
 
 performance_df = pd.DataFrame({'Algorithm':clfs.keys(),'Accuracy':accuracy_scores,'Precision':precision_scores}).sort_values('Precision',ascending=False)
-    -->
+    
